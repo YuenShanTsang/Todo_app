@@ -1,18 +1,29 @@
 ﻿html {
-  font-size: 14px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #f0f0f0;
+}
+
+a {
+    color: coral;
+}
+
+    a:hover {
+        color: crimson;
+    }
+
+h1 {
+    color: lightpink;
 }
