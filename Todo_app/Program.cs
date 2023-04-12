@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<TodoContext>(
-    options => options.UseSqlite("Default")
+    options => options.UseSqlite("Data Source=/Users/yuenshan/Documents/Programming/WEB_asm/Data/todo.db;")
     );
 
 builder.Services.AddControllersWithViews();
