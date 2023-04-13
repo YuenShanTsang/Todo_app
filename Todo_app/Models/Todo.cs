@@ -1,6 +1,7 @@
 ﻿namespace Todo_app.Models
 {
-	public class Todo
+    // A model to track a To-do
+    public class Todo
 	{
         public int TodoId { get; set; }
         public string Title { get; set; } = String.Empty;

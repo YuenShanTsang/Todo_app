@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Todo_app.Migrations
 {
+    // Third migration (CompletedDate)
     public partial class ThirdMigrations : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

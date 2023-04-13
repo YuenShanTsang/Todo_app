@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container.Added database.
 builder.Services.AddDbContext<TodoContext>(
     options => options.UseSqlite("Data Source=/Users/yuenshan/Documents/Programming/WEB_asm/Data/todo.db;")
     );

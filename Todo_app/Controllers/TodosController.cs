@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Todo_app.Data;
 using Todo_app.Models;
 
+// Scaffolding controller in mvc
 namespace Todo_app.Controllers
 {
     public class TodosController : Controller

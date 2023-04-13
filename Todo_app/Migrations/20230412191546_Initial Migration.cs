@@ -4,6 +4,7 @@
 
 namespace Todo_app.Migrations
 {
+    // First migration(TodoId, Title, IsComplete)
     public partial class InitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

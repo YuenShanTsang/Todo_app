@@ -16,6 +16,12 @@ body {
     background-color: #f0f0f0;
 }
 
+/*heading style*/
+h1 {
+    color: lightpink;
+}
+
+/*links style*/
 a {
     color: coral;
 }
@@ -24,6 +30,3 @@ a {
         color: crimson;
     }
 
-h1 {
-    color: lightpink;
-}

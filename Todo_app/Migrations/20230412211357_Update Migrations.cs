@@ -4,6 +4,7 @@
 
 namespace Todo_app.Migrations
 {
+    // Second migration (Description)
     public partial class UpdateMigrations : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
